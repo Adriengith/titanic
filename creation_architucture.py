@@ -13,6 +13,6 @@ def creation_architucture(project_name):
     os.system(f"mkdir data")
     os.system(f"touch api/fast.py")
     os.system(f"touch README.md")
-
+    os.system(f"touch requierements.txt")
 
 creation_architucture('titanic')
